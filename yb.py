@@ -48,6 +48,5 @@ for i in range(1,10):
             pdfurl=r"http://pdf.dfcfw.com/pdf/"+results2[0]+"pdf"
             print(pdfurl)
             urlretrieve(pdfurl, "./%r/%r.pdf" %(hy, name) )
-            
-           
+      
             print(name)
